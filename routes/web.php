@@ -14,5 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+<<<<<<< HEAD
     return view('welcome');
 });
+=======
+    return view('auth.login');
+});
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::post('/registerTime', 'HomeController@registerTime');
+>>>>>>> 54d70f903eae386f658222ced14cb5862c74934f

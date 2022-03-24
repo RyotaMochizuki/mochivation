@@ -6,11 +6,20 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
+<<<<<<< HEAD
+=======
+        "doctrine/dbal": "^3.3",
+>>>>>>> 54d70f903eae386f658222ced14cb5862c74934f
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.75",
         "laravel/sanctum": "^2.11",
+<<<<<<< HEAD
         "laravel/tinker": "^2.5"
+=======
+        "laravel/tinker": "^2.5",
+        "laravel/ui": "^3.4"
+>>>>>>> 54d70f903eae386f658222ced14cb5862c74934f
     },
     "require-dev": {
         "facade/ignition": "^2.5",

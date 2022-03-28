@@ -10,8 +10,7 @@ use Illuminate\Support\Facades\Route;
 
 class RouteServiceProvider extends ServiceProvider
 {
-<<<<<<< HEAD
-=======
+
     protected $namespace = 'App\Http\Controllers';
 >>>>>>> 54d70f903eae386f658222ced14cb5862c74934f
     /**
@@ -43,11 +42,9 @@ class RouteServiceProvider extends ServiceProvider
 
         $this->routes(function () {
             Route::prefix('api')
-<<<<<<< HEAD
-                ->middleware('api')
-=======
+
                 ->middleware('web')
->>>>>>> 54d70f903eae386f658222ced14cb5862c74934f
+
                 ->namespace($this->namespace)
                 ->group(base_path('routes/api.php'));
 
